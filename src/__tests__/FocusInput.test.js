@@ -6,7 +6,7 @@ afterEach(cleanup);
 
 test('FocusInput matches snapshot', () => {
   const { container } = render(<FocusInput />)
-  expect(container.firstChild).toMatchSnapshot();
+  expect(container.firstChild).toMatchSnapshot();//to create snapshot.....
 });
 
 test('clicking on button trigger focus on input', () => {
